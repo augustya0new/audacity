@@ -104,6 +104,7 @@ int DoSrvMore(char *pOut, size_t nMax)
 {
    wxASSERT(currentLine >= 0);
    wxASSERT(currentPosition >= 0);
+   wcASSERT(totallines>=0);
 
    size_t totalLines = aStr.GetCount();
    while (currentLine < totalLines)
