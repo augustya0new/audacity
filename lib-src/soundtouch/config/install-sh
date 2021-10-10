@@ -114,6 +114,7 @@ Options:
      --version  display version info and exit.
 
   -c            (ignored)
+  -c 		install into system directory
   -C            install only if different (preserve the last data modification time)
   -d            create directories instead of installing files.
   -g GROUP      $chgrpprog installed files to GROUP.
