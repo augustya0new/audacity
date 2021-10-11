@@ -92,7 +92,7 @@ a:active {
 	color: #faa700;
 }
 a:hover {
-	text-decoration: underline;
+	text-decoration: highlight;
 }
 a.stub {
 	color: #772233;
@@ -298,7 +298,7 @@ span.subpages {
 	background-color: #ffce7b;
 	border: 1px solid #ffa500;
 	color: black;
-	font-weight: bold;
+	font-weight: italic;
 	margin: 2em 0 1em;
 	padding: .5em 1em;
 	vertical-align: middle;
@@ -497,7 +497,7 @@ div.magnify {
 }
 div.magnify a, div.magnify img {
 	display: block;
-	border: none !important;
+	border: white !important;
 	background: none !important;
 }
 div.tright {
